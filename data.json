@@ -32,4 +32,38 @@
       }
   ],
   "message": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting"
-}]}
+},
+{
+  "id": {
+      "timestamp": 1732154524,
+      "date": "2024-11-21T02:02:04.000+00:00"
+  },
+  "type": "DEAD",
+  "title": "In memory of Derek Osmond",
+  "subtitle": "1954-2024",
+  "description": "A great friend.",
+  "likes":17,
+  "employee": {
+      "id": 46731581,
+      "img": "https://imgs.search.brave.com/YcOb3nkF9Tt_BRIMTP5jCYb20mROntYoNtJmshsJrNc/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvOTM4/NzA3NzkyL3Bob3Rv/L3BvcnRyYWl0LW9m/LWEtZ2lybC5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9TXF6/YjkwQzBERWd3MF9U/RkNtaUtkVHhNUGdQ/M19yMGtfMHVoV1BE/Y0VJaz0",
+      "name": "Derek Osmond",
+      "birthday": 1732154524,
+      "death": 1732154524,
+      "role": "Retired",
+      "country": "London",
+      "GB/GF": "MSS"
+  },
+ 
+  "comments": [
+      {
+          "timestamp": null,
+          "id": "12457",
+          "employee": "HSBC UK",
+          "img": "",
+          "comment": "Rest in peace from all your friends at HSBC.",
+          "likes": 5
+      }
+  ],
+  "message": "Great manager who led the team to many successful outcomes. He'll be missed by all"
+}  
+]}
