@@ -2,20 +2,20 @@
     
     "memories":[{
     "id": {
-        "timestamp": 1732154524,
+        "timestamp": 1732154521,
         "date": "2024-11-21T02:02:04.000+00:00"
     },
-    "type": "DEAD",
-    "title": "In memory of Harry Potter",
-    "subtitle": "1990-2040",
-    "description": "A great leader and a good friend.",
+    "type": "Passed Away",
+    "title": "In memory of Leona Henry",
+    "subtitle": "1985-2024",
+    "description": "A great leader and a good friend are what many HSBC colleagues would use to describe Leona. After joining as a graduate she soon rose through the ranks with her attention to detail and here non-stop attitude to learn new things. She was married to Andrew and loved walking in the Welsh hills.",
     "likes":5,
     "employee": {
         "id": 43734581,
         "img": "https://imgs.search.brave.com/YcOb3nkF9Tt_BRIMTP5jCYb20mROntYoNtJmshsJrNc/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvOTM4/NzA3NzkyL3Bob3Rv/L3BvcnRyYWl0LW9m/LWEtZ2lybC5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9TXF6/YjkwQzBERWd3MF9U/RkNtaUtkVHhNUGdQ/M19yMGtfMHVoV1BE/Y0VJaz0",
-        "name": "Harry Potter",
-        "birthday": 1732154524,
-        "death": 1732154524,
+        "name": "Leona Henry",
+        "birthday": "May 1985",
+        "death": "November 2024",
         "role": "Senior Tech Lead",
         "country": "London",
         "GB/GF": "WPB"
@@ -29,19 +29,27 @@
             "img": "",
             "comment": "We miss you and the way you lead us, you're always be in our hearts.",
             "likes": 5
+        },
+        {
+            "timestamp": null,
+            "id": "16957",
+            "employee": "Ann Ball",
+            "img": "",
+            "comment": "Rest in peace from all your friends at HSBC I'll miss our morning chats beside the coffee machine!.",
+            "likes": 5
         }
     ],
-    "message": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting"
+    "message": "No flowers please, donations to local charities only"
   },
   {
     "id": {
-        "timestamp": 1732154525,
+        "timestamp": 1732154522,
         "date": "2024-11-21T02:02:04.000+00:00"
     },
     "type": "DEAD",
     "title": "In memory of Derek Osmond",
     "subtitle": "1954-2024",
-    "description": "A great friend.",
+    "description": "Derek or Des to those who knew him joined HSBC in 1979 and only planned to stay for 6 months! Although after 20 years service he certainly left his mark and many will have fond memories..",
     "likes":17,
     "employee": {
         "id": 46731581,
@@ -65,24 +73,129 @@
         }
     ],
     "message": "Great manager who led the team to many successful outcomes. He'll be missed by all"
-  }  
-  ],
-  "1732154524":{
+  },
+  {
+    "id": {
+        "timestamp": 1732154523,
+        "date": "2024-11-21T02:02:04.000+00:00"
+    },
+    "type": "Passed Away",
+    "title": "In memory of Shirley J",
+    "subtitle": "1966-2024",
+    "description": "Shirley was born in Chicago, US in September 1966, always a person with a high perspective of life and vision for work, one of the best specialists and leaders here. She had a deep for music and often found happiness in listening to her favourite songs.",
+    "likes":5,
+    "employee": {
+        "id": 43734581,
+        "img": "https://img.freepik.com/free-photo/old-woman-confronting-alzheimer-disease_23-2149043734.jpg",
+        "name": "Shirley J",
+        "birthday": "September 1966",
+        "death": "November 2024",
+        "role": "Senior Tech Specialist HR Onboarding",
+        "country": "US",
+        "GB/GF": "RBWM"
+    },
+   
+    "comments": [
+        {
+            "timestamp": null,
+            "id": "12456",
+            "employee": "Silvia Thomson",
+            "img": "",
+            "comment": "We miss you and the way you lead us, you're always be in our hearts.",
+            "likes": 5
+        },
+      {
+            "timestamp": null,
+            "id": "12457",
+            "employee": "Edgar Ramirez",
+            "img": "",
+            "comment": "Thank you for everything, I will miss you, you showed love by showing love.",
+            "likes": 5
+        }
+    ],
+    "message": "Had memorial for family and friends at the Baxter Chapel of Hooper and Huddlestone Funeral Home. Burial was at the Dobbs Cemetery."
+  },
+{
     "id": {
         "timestamp": 1732154524,
         "date": "2024-11-21T02:02:04.000+00:00"
     },
-    "type": "DEAD",
-    "title": "In memory of Harry Potter",
-    "subtitle": "1990-2040",
-    "description": "A great leader and a good friend.",
+    "type": "Passed Away",
+    "title": "William M (Bill)",
+    "subtitle": "1956-2024",
+    "description": "Bill was born in Minessota in Decemner 1956, was married to Karen (Karki) and started a family that grew to include two boys. A person with a good sense of humour.",
+    "likes": 5,
+    "employee": {
+        "id": 43734581,
+        "img": "https://img.freepik.com/free-photo/front-view-old-man-sitting-bench_23-2150493075.jpg",
+        "name": "William M",
+        "birthday": "December 1956",
+        "death": "November 2024",
+        "role": "Digital Marketing",
+        "country": "US",
+        "GB/GF": "Internet Banking"
+    },
+    "comments": [
+        {
+            "timestamp": 1732154524,
+            "id": "12444",
+            "employee": "Rodrigo Lopez",
+            "img": "",
+            "comment": "We miss you and the way you lead us, you're always be in our hearts.",
+            "likes": 5
+        },
+      {
+            "timestamp": 1732154524,
+            "id": "12543",
+            "employee": "Alejandra Walker",
+            "img": "",
+            "comment": "You were always nice and helped me in the most difficult moments. I will miss the way you solved problems and encouraged us to continue even when you could have a bad day, thank you very much for so much.",
+            "likes": 5
+        },
+      {
+            "timestamp": null,
+            "id": "12460",
+            "employee": "James Little",
+            "img": "",
+            "comment": "Rest in peace from all your friends at HSBC.",
+            "likes": 5
+        },
+      {
+            "timestamp": null,
+            "id": "12460",
+            "employee": "Sandra Small",
+            "img": "",
+            "comment": "Thank you for all the help and advice over the years Derek.",
+            "likes": 10
+        },
+      {
+            "timestamp": null,
+            "id": "12470",
+            "employee": "John Ramble",
+            "img": "",
+            "comment": "Rest in peave Derek! I don't know who I'll play golf with now every Sunday.",
+            "likes": 5
+        }
+    ],
+    "message": "if you want to send flowers, please contact his wife 00-677-4567-345"
+  }   
+  ],
+  "1732154521":{
+    "id": {
+        "timestamp": 1732154521,
+        "date": "2024-11-21T02:02:04.000+00:00"
+    },
+    "type": "Passed Away",
+    "title": "In memory of Leona Henry",
+    "subtitle": "1985-2040",
+    "description": "A great leader and a good friend are what many HSBC colleagues would use to describe Leona. After joining as a graduate she soon rose through the ranks with her attention to detail and here non-stop attitude to learn new things. She was married to Andrew and loved walking in the Welsh hills.",
     "likes": 5,
     "employee": {
         "id": 43734581,
         "img": "https://imgs.search.brave.com/YcOb3nkF9Tt_BRIMTP5jCYb20mROntYoNtJmshsJrNc/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvOTM4/NzA3NzkyL3Bob3Rv/L3BvcnRyYWl0LW9m/LWEtZ2lybC5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9TXF6/YjkwQzBERWd3MF9U/RkNtaUtkVHhNUGdQ/M19yMGtfMHVoV1BE/Y0VJaz0",
-        "name": "Harry Potter",
-        "birthday": 1732154524,
-        "death": 1732154524,
+        "name": "Leona Henry",
+        "birthday": "May 1985",
+        "death": "November 2024",
         "role": "Senior Tech Lead",
         "country": "London",
         "GB/GF": "WPB"
@@ -95,19 +208,27 @@
             "img": "https://www.yttags.com/blog/wp-content/uploads/2023/02/image-urls-for-testing.webp",
             "comment": "We miss you and the way you lead us, you're always be in our hearts.",
             "likes": 5
+        },
+        {
+            "timestamp": null,
+            "id": "16957",
+            "employee": "Ann Ball",
+            "img": "",
+            "comment": "Rest in peace from all your friends at HSBC I'll miss our morning chats beside the coffee machine!.",
+            "likes": 5
         }
     ],
-    "message": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting"
+    "message": "No flowers please, donations only to local charities."
 },
-"1732154525": {
+"1732154522": {
     "id": {
-        "timestamp": 1732154525,
+        "timestamp": 1732154522,
         "date": "2024-11-21T02:02:04.000+00:00"
     },
     "type": "DEAD",
     "title": "In memory of Derek Osmond",
     "subtitle": "1954-2024",
-    "description": "A great friend.",
+    "description": "Derek or Des to those who knew him joined HSBC in 1979 and only planned to stay for 6 months! Although after 20 years service he certainly left his mark and many will have fond memories.",
     "likes":17,
     "employee": {
         "id": 46731581,
@@ -131,5 +252,87 @@
         }
     ],
     "message": "Great manager who led the team to many successful outcomes. He'll be missed by all"
-  } 
+  },
+  "1732154523": {
+    "id": {
+        "timestamp": 1732154523,
+        "date": "2024-11-21T02:02:04.000+00:00"
+    },
+    "type": "Passed Away",
+    "title": "In memory of Shirley J",
+    "subtitle": "1966-2024",
+    "description": "Shirley was born in Chicago, US in September 1966, always a person with a high perspective of life and vision for work, one of the best specialists and leaders here. She had a deep for music and often found happiness in listening to her favourite songs.",
+    "likes":5,
+    "employee": {
+        "id": 43734581,
+        "img": "https://img.freepik.com/free-photo/old-woman-confronting-alzheimer-disease_23-2149043734.jpg",
+        "name": "Shirley J",
+        "birthday": "September 1966",
+        "death": "November 2024",
+        "role": "Senior Tech Specialist HR Onboarding",
+        "country": "US",
+        "GB/GF": "RBWM"
+    },
+
+    "comments": [
+        {
+            "timestamp": null,
+            "id": "12456",
+            "employee": "Silvia Thomson",
+            "img": "",
+            "comment": "We miss you and the way you lead us, you're always be in our hearts.",
+            "likes": 5
+        },
+      {
+            "timestamp": null,
+            "id": "12457",
+            "employee": "Edgar Ramirez",
+            "img": "",
+            "comment": "Thank you for everything, I will miss you, you showed love by showing love.",
+            "likes": 5
+        }
+    ],
+    "message": "Had memorial for family and friends at the Baxter Chapel of Hooper and Huddlestone Funeral Home. Burial was at the Dobbs Cemetery."
+  },
+  "1732154524": {
+    "id": {
+        "timestamp": 1732154524,
+        "date": "2024-11-21T02:02:04.000+00:00"
+    },
+    "type": "Passed Away",
+    "title": "William M (Bill)",
+    "subtitle": "1956-2024",
+    "description": "Bill was born in Minessota in Decemner 1956, was married to Karen (Karki) and started a family that grew to include two boys. A person with a good sense of humour.",
+    "likes": 5,
+    "employee": {
+        "id": 43734581,
+        "img": "https://img.freepik.com/free-photo/front-view-old-man-sitting-bench_23-2150493075.jpg",
+        "name": "William M",
+        "birthday": "December 1956",
+        "death": "November 2024",
+        "role": "Digital Marketing",
+        "country": "US",
+        "GB/GF": "Internet Banking"
+    },
+    "comments": [
+        {
+            "timestamp": 1732154524,
+            "id": "12444",
+            "employee": "Rodrigo Lopez",
+            "img": "",
+            "comment": "We miss you and the way you lead us, you're always be in our hearts.",
+            "likes": 5
+        },
+      {
+            "timestamp": 1732154524,
+            "id": "12543",
+            "employee": "Alejandra Walker",
+            "img": "",
+            "comment": "You were always nice and helped me in the most difficult moments. I will miss the way you solved problems and encouraged us to continue even when you could have a bad day, thank you very much for so much.",
+            "likes": 5
+        }
+    ],
+    "message": "if you want to send flowers, please contact his wife 00-677-4567-345"
+}
+ 
 }
