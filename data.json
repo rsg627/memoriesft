@@ -1,41 +1,35 @@
 {
-    "author" : [ {
-        "id": 1,
-        "age" : 16,
-        "name" : "Andy"
-      }, 
+    
+  "memories":[{
+  "id": {
+      "timestamp": 1732154524,
+      "date": "2024-11-21T02:02:04.000+00:00"
+  },
+  "type": "DEAD",
+  "title": "In memory of Harry Potter",
+  "subtitle": "1990-2040",
+  "description": "A great leader and a good friend.",
+  "likes":5,
+  "employee": {
+      "id": 43734581,
+      "img": "https://imgs.search.brave.com/YcOb3nkF9Tt_BRIMTP5jCYb20mROntYoNtJmshsJrNc/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvOTM4/NzA3NzkyL3Bob3Rv/L3BvcnRyYWl0LW9m/LWEtZ2lybC5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9TXF6/YjkwQzBERWd3MF9U/RkNtaUtkVHhNUGdQ/M19yMGtfMHVoV1BE/Y0VJaz0",
+      "name": "Harry Potter",
+      "birthday": 1732154524,
+      "death": 1732154524,
+      "role": "Senior Tech Lead",
+      "country": "London",
+      "GB/GF": "WPB"
+  },
+ 
+  "comments": [
       {
-        "id": 2,
-        "age" : 22,
-        "name" : "Lisa"
+          "timestamp": null,
+          "id": "12456",
+          "employee": "Hagrid",
+          "img": "",
+          "comment": "We miss you and the way you lead us, you're always be in our hearts.",
+          "likes": 5
       }
-    ],
-    "comments" : [ 
-        {
-        "id": 1,
-        "date" : "03-18-2016",
-        "message" : "Nice!"
-      },
-      {
-        "id": 2,
-        "date" : "06-21-2017",
-        "message" : "Great view!"
-      }
-    ],
-    "pictures" : [
-      {
-        "id": 1,
-        "author" : "Lisa",
-        "description" : "A wonderful view of nature",
-        "img" : "https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/8V46UZCS0V.jpg",
-        "title" : "A natural view"
-      },
-      {
-        "id": 2,
-        "author" : "Andy",
-        "description" : "Seaside sunset",
-        "img" : "https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/8V46UZCS0V.jpg",
-        "title" : "Landscape view"
-      }
-    ]
-  }
+  ],
+  "message": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting"
+}]}

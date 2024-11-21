@@ -10,6 +10,6 @@ export class MemoriesService {
   constructor(private http: HttpClient) { }
 
   getMemoryById(id: any) {
-    return this.http.get<any[]>(`${environment.backendUrl}/author`);
+    return this.http.get<any[]>(`${environment.backendUrl}/memories`);
   }
 }
