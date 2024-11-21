@@ -32,4 +32,38 @@
       }
   ],
   "message": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting"
-}]}
+},
+{
+  "id": {
+      "timestamp": 1732154524,
+      "date": "2024-11-21T02:02:04.000+00:00"
+  },
+  "type": "DEAD",
+  "title": "In loving Memoery Ginny Weasly",
+  "subtitle": "2002-2070",
+  "description": "A true frind",
+  "likes":5,
+  "employee": {
+      "id": 43734581,
+      "img": "https://imgs.search.brave.com/YcOb3nkF9Tt_BRIMTP5jCYb20mROntYoNtJmshsJrNc/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvOTM4/NzA3NzkyL3Bob3Rv/L3BvcnRyYWl0LW9m/LWEtZ2lybC5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9TXF6/YjkwQzBERWd3MF9U/RkNtaUtkVHhNUGdQ/M19yMGtfMHVoV1BE/Y0VJaz0",
+      "name": "Ginny Weasly",
+      "birthday": 1732154524,
+      "death": 1732154524,
+      "role": "Senior Tech Lead",
+      "country": "London",
+      "GB/GF": "WPB"
+  },
+ 
+  "comments": [
+      {
+          "timestamp": null,
+          "id": "12456",
+          "employee": "Hagrid",
+          "img": "",
+          "comment": "We miss you and the way you lead us, you're always be in our hearts.",
+          "likes": 5
+      }
+  ],
+  "message": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting"
+}
+]}
