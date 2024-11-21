@@ -1,0 +1,23 @@
+{
+    "id": {
+        "timestamp": 1732154524,
+        "date": "2024-11-21T02:02:04.000+00:00"
+    },
+    "type": "ABC",
+    "timestamp": null,
+    "employee": {
+        "id": null,
+        "name": null,
+        "birthday": null,
+        "death": null
+    },
+    "comments": [
+        {
+            "id": null,
+            "employee": null,
+            "comment": null,
+            "timestamp": null
+        }
+    ],
+    "message": null
+}
