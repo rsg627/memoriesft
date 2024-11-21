@@ -6,12 +6,16 @@ import { MatIconModule } from '@angular/material/icon';
 
 @Component({
   selector: 'app-comment',
-  imports: [MatCardModule,MatIconModule,MatChipsModule,DatePipe,CommonModule],
+  imports: [MatCardModule, MatIconModule, MatChipsModule, DatePipe, CommonModule],
   templateUrl: './comment.component.html',
   styleUrl: './comment.component.css'
 })
 export class CommentComponent {
   @Input() item!: any;
-  constructor(){
+  constructor() {
+  }
+  addLike(value: any) {
+    value.likes += 1;
+    console.log(value.likes);
   }
 }

@@ -1,15 +1,26 @@
 .example-card {
     max-width: 900px;
+    min-width: 900px;
     margin-top: 5px;
     margin-left: 100px;
     margin-right: 100px;
     display: flex;
     justify-content: center;
   }
+  .my-image-margin {
+    margin-right: 16px;
+    margin-left: 24px;
+  }
   .imgs {
     height: 100px;
     width: 100px;
   }
-
+  .custom {
+    font-size: 12px;
+  }
+  .button-margin{
+    margin-bottom: 20px;
+  }
+ 
 
 

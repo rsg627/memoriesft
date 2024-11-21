@@ -4,20 +4,23 @@
       <mat-card-title>{{item.title}}</mat-card-title>
       <mat-card-subtitle>{{item.subtitle}}</mat-card-subtitle>
     </mat-card-header>
-    <img mat-card-md-image src="{{item.employee.img}}" alt="Photo of a Shiba Inu">
+    <div class="my-image-margin">
+      <img mat-card-md-image  src="{{item.employee.img}}" alt="Photo of a Shiba Inu">
+    </div>
     <mat-card-content>
-      <p>{{item.message}}
+      <p>{{item.description}}
       </p>
     </mat-card-content>
     <mat-card-actions>
-      <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
-        <span>
+      <button mat-icon-button class="button-margin" aria-label="Example icon-button with heart icon" (click)="addLike(item)">
+        <span >
           <mat-icon>favorite</mat-icon>{{item.likes}}
         </span>
       </button>
-      <button mat-icon-button class="example-icon favorite-icon" [routerLink]="['/memory',item.id.timestamp]" aria-label="Example icon-button with heart icon">
+      <button mat-icon-button class="button-margin" [routerLink]="['/memory',item.id.timestamp]" aria-label="Example icon-button with heart icon">
         <mat-icon>add</mat-icon>
       </button>
       <br>
     </mat-card-actions>
+
   </mat-card>
