@@ -18,7 +18,7 @@
         "death": 1732154524,
         "role": "Senior Tech Lead",
         "country": "London",
-        "GB/GF": "WPB"
+        "gbgf": "WPB"
     },
    
     "comments": [
@@ -51,7 +51,7 @@
         "death": 1732154524,
         "role": "Retired",
         "country": "London",
-        "GB/GF": "MSS"
+        "gbgf": "MSS"
     },
    
     "comments": [
@@ -85,7 +85,7 @@
         "death": 1732154524,
         "role": "Senior Tech Lead",
         "country": "London",
-        "GB/GF": "WPB"
+        "gbgf": "WPB"
     },
     "comments": [
         {
@@ -97,7 +97,7 @@
             "likes": 5
         }
     ],
-    "message": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting"
+    "message": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting"
 },
 "1732154525": {
     "id": {
@@ -117,7 +117,7 @@
         "death": 1732154524,
         "role": "Retired",
         "country": "London",
-        "GB/GF": "MSS"
+        "gbgf": "MSS"
     },
    
     "comments": [

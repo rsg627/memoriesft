@@ -9,8 +9,11 @@
       </p>
     </mat-card-content>
     <span *ngIf="item.img">
-      <img mat-card-md-image src="{{item.img}}" alt="Photo of a Shiba Inu">
-      </span>
+      <div class="my-image-margin">
+        <img mat-card-md-image src="{{item.img}}" alt="Photo of a Shiba Inu">
+      
+      </div>
+    </span>
     <mat-card-actions>
       <button mat-icon-button mat-flat-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
         <span>

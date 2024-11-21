@@ -1,9 +1,9 @@
 
 <mat-card *ngIf="item" class="centered-card" appearance="outlined">
-    <img mat-card-md-image src="{{item.employee.img}}" alt="Photo of a Shiba Inu">
+  <img mat-card-md-image  src="{{item.employee.img}}" alt="Photo of a Shiba Inu">
     <mat-card-header style="text-align: center;">
       <mat-card-title>{{item.title}}</mat-card-title>
-      <mat-card-subtitle>{{item.subtitle}}</mat-card-subtitle>
+      <mat-card-subtitle>{{ item.employee.gbgf}},  {{ item.employee.role}} <br>{{item.subtitle}} </mat-card-subtitle>
     </mat-card-header>
    
     <mat-card-content>
