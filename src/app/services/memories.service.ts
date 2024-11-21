@@ -8,8 +8,10 @@ import { environment } from '../../environments/environment';
 export class MemoriesService {
 
   constructor(private http: HttpClient) { }
-
-  getMemoryById(id: any) {
+  getMemoryAll(type: any) {
     return this.http.get<any[]>(`${environment.backendUrl}/memories`);
+  }
+  getMemoryById(id: any) {
+    return this.http.get<any[]>(`${environment.backendUrl}/${id}`);
   }
 }

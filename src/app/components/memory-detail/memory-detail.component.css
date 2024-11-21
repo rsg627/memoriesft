@@ -1,0 +1,6 @@
+.centered-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 100px 0px 100px;
+  }

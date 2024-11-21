@@ -12,9 +12,12 @@
     <mat-card-actions>
       <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
         <span>
-          <mat-icon>favorite</mat-icon>
-          {{item.likes}}
+          <mat-icon>favorite</mat-icon>{{item.likes}}
         </span>
       </button>
+      <button mat-icon-button class="example-icon favorite-icon" [routerLink]="['/memory',item.id.timestamp]" aria-label="Example icon-button with heart icon">
+        <mat-icon>add</mat-icon>
+      </button>
+      <br>
     </mat-card-actions>
   </mat-card>

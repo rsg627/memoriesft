@@ -1,1 +1,23 @@
-<p>comment works!</p>
+<mat-card class="example-card" appearance="outlined">
+    <mat-card-header>
+      <mat-card-title>{{item.employee}}</mat-card-title>
+      <mat-card-subtitle>{{ item.timestamp | date:'YYYY-MM-dd h:mm a' }}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <p>
+       {{item.comment}}
+      </p>
+    </mat-card-content>
+    <span *ngIf="item.img">
+      <img mat-card-md-image src="{{item.img}}" alt="Photo of a Shiba Inu">
+      </span>
+    <mat-card-actions>
+      <button mat-icon-button mat-flat-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+        <span>
+          <mat-icon>favorite</mat-icon>
+          {{item.likes}}
+        </span>
+      </button>
+    </mat-card-actions>
+  </mat-card>
+

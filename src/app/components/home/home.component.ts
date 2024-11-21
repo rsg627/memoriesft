@@ -18,12 +18,11 @@ export class HomeComponent implements OnInit  {
   items: any[]=[];
   constructor(public memoriesService:MemoriesService){}
   ngOnInit(): void {
-    this.memoriesService.getMemoryById(12).subscribe(data => {
+    this.memoriesService.getMemoryAll("DEAD").subscribe(data => {
       console.log("abita2",data); 
       this.items = data;
       console.log("abita",this.items);
     });
-    console.log("LIMA", this.memoriesService.getMemoryById(12));
    
   }
   doAction(item: any, event: any) {
