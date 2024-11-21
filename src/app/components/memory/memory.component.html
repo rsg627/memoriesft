@@ -12,7 +12,7 @@
       </p>
     </mat-card-content>
     <mat-card-actions>
-      <button mat-icon-button class="button-margin" aria-label="Example icon-button with heart icon">
+      <button mat-icon-button class="button-margin" aria-label="Example icon-button with heart icon" (click)="addLike(item)">
         <span >
           <mat-icon>favorite</mat-icon>{{item.likes}}
         </span>

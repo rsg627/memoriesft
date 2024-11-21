@@ -13,4 +13,8 @@ import { Router, RouterModule } from '@angular/router';
 export class MemoryComponent {
   @Input() item!: any;
   constructor(public router: Router){}
+  addLike(value: any) {
+    value.likes += 1;
+    console.log(value.likes);
+  }
 }
