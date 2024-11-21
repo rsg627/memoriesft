@@ -7,12 +7,7 @@
           <mat-icon class="example-tab-icon">deceased</mat-icon>
           In Memory of
         </ng-template>
-
-      
-
-
-
-        <app-memory *ngFor="let item of items" [item]="item" (click)="doAction(item,$event)"></app-memory>
+ <app-memory *ngFor="let item of items" [item]="item" (click)="doAction(item,$event)"></app-memory>
       </mat-tab>
     
       <mat-tab>
