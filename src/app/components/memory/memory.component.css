@@ -7,6 +7,10 @@
     display: flex;
     justify-content: center;
   }
+  .my-image-margin {
+    margin-right: 16px;
+    margin-left: 24px;
+  }
   .imgs {
     height: 100px;
     width: 100px;
