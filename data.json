@@ -1,44 +1,51 @@
 {
-    
     "memories":[{
     "id": {
         "timestamp": 1732154524,
         "date": "2024-11-21T02:02:04.000+00:00"
     },
-    "type": "DEAD",
-    "title": "In memory of Harry Potter",
-    "subtitle": "1990-2040",
-    "description": "A great leader and a good friend.",
+    "type": "Passed Away",
+    "title": "In memory of Shirley J",
+    "subtitle": "1946-2024",
+    "description": "Shirley was born in Chicago, US in September 1946, always a person with a high perspective of life and vision for work, one of the best specialists and leaders here. She had a deep for music and often found happiness in listening to her favourite songs.",
     "likes":5,
     "employee": {
         "id": 43734581,
         "img": "https://imgs.search.brave.com/YcOb3nkF9Tt_BRIMTP5jCYb20mROntYoNtJmshsJrNc/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvOTM4/NzA3NzkyL3Bob3Rv/L3BvcnRyYWl0LW9m/LWEtZ2lybC5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9TXF6/YjkwQzBERWd3MF9U/RkNtaUtkVHhNUGdQ/M19yMGtfMHVoV1BE/Y0VJaz0",
-        "name": "Harry Potter",
-        "birthday": 1732154524,
-        "death": 1732154524,
-        "role": "Senior Tech Lead",
-        "country": "London",
-        "GB/GF": "WPB"
+        "name": "Shirley J",
+        "birthday": "September 1946",
+        "death": "November 2024",
+        "role": "Senior Tech Specialist HR Onboarding",
+        "country": "US",
+        "GB/GF": "RBWM"
     },
    
     "comments": [
         {
             "timestamp": null,
             "id": "12456",
-            "employee": "Hagrid",
+            "employee": "Silvia Thomson",
             "img": "",
             "comment": "We miss you and the way you lead us, you're always be in our hearts.",
             "likes": 5
+        },
+      {
+            "timestamp": null,
+            "id": "12457",
+            "employee": "Edgar Ramirez",
+            "img": "",
+            "comment": "Thank you for everything, I will miss you, you showed love by showing love.",
+            "likes": 5
         }
     ],
-    "message": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting"
+    "message": "Had memorial for family and friends at the Baxter Chapel of Hooper and Huddlestone Funeral Home. Burial was at the Dobbs Cemetery."
   },
   {
     "id": {
         "timestamp": 1732154524,
         "date": "2024-11-21T02:02:04.000+00:00"
     },
-    "type": "DEAD",
+    "type": "Passed Away",
     "title": "In memory of Derek Osmond",
     "subtitle": "1954-2024",
     "description": "A great friend.",
@@ -47,8 +54,8 @@
         "id": 46731581,
         "img": "https://img.freepik.com/free-photo/front-view-man-posing-indoors_23-2149883566.jpg?t=st=1732209528~exp=1732213128~hmac=b780e3280e289a65e3718bb963a690b88e87818310b3d5905a9f68e18958c0a7&w=1480",
         "name": "Derek Osmond",
-        "birthday": 1732154524,
-        "death": 1732154524,
+        "birthday": "October 1954",
+        "death": "November 2024",
         "role": "Retired",
         "country": "London",
         "GB/GF": "MSS"
@@ -57,14 +64,30 @@
     "comments": [
         {
             "timestamp": null,
-            "id": "12457",
-            "employee": "HSBC UK",
+            "id": "12460",
+            "employee": "James Little",
             "img": "",
             "comment": "Rest in peace from all your friends at HSBC.",
             "likes": 5
+        },
+      {
+            "timestamp": null,
+            "id": "12460",
+            "employee": "Sandra Small",
+            "img": "",
+            "comment": "Thank you for all the help and advice over the years Derek.",
+            "likes": 10
+        },
+      {
+            "timestamp": null,
+            "id": "12470",
+            "employee": "John Ramble",
+            "img": "",
+            "comment": "Rest in peave Derek! I don't know who I'll play golf with now every Sunday.",
+            "likes": 5
         }
     ],
-    "message": "Great manager who led the team to many successful outcomes. He'll be missed by all"
+    "message": "No flowers please, just donations to local charities."
   }  
   ],
   "1732154524":{
@@ -72,31 +95,39 @@
         "timestamp": 1732154524,
         "date": "2024-11-21T02:02:04.000+00:00"
     },
-    "type": "DEAD",
-    "title": "In memory of Harry Potter",
-    "subtitle": "1990-2040",
-    "description": "A great leader and a good friend.",
+    "type": "Passed Away",
+    "title": "William M (Bill)",
+    "subtitle": "1946-2024",
+    "description": "Bill was born in Minessota in Decemner 1946, was married to Karen (Karki) and started a family that grew to include two boys. A person with a good sense of humour.",
     "likes": 5,
     "employee": {
         "id": 43734581,
         "img": "https://imgs.search.brave.com/YcOb3nkF9Tt_BRIMTP5jCYb20mROntYoNtJmshsJrNc/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvOTM4/NzA3NzkyL3Bob3Rv/L3BvcnRyYWl0LW9m/LWEtZ2lybC5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9TXF6/YjkwQzBERWd3MF9U/RkNtaUtkVHhNUGdQ/M19yMGtfMHVoV1BE/Y0VJaz0",
-        "name": "Harry Potter",
-        "birthday": 1732154524,
-        "death": 1732154524,
-        "role": "Senior Tech Lead",
-        "country": "London",
-        "GB/GF": "WPB"
+        "name": "William M",
+        "birthday": "December 1946",
+        "death": "November 2024",
+        "role": "Digital Marketing",
+        "country": "US",
+        "GB/GF": "Internet Banking"
     },
     "comments": [
         {
             "timestamp": 1732154524,
-            "id": "12456",
-            "employee": "Hagrid",
-            "img": "https://www.yttags.com/blog/wp-content/uploads/2023/02/image-urls-for-testing.webp",
+            "id": "12444",
+            "employee": "Rodrigo Lopez",
+            "img": "",
             "comment": "We miss you and the way you lead us, you're always be in our hearts.",
+            "likes": 5
+        },
+      {
+            "timestamp": 1732154524,
+            "id": "12543",
+            "employee": "Alejandra Walker",
+            "img": "",
+            "comment": "You were always nice and helped me in the most difficult moments. I will miss the way you solved problems and encouraged us to continue even when you could have a bad day, thank you very much for so much.",
             "likes": 5
         }
     ],
-    "message": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting"
+    "message": "if you want to send flowers, please contact his wife 00-677-4567-345"
 }
 }
