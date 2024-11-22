@@ -1,4 +1,3 @@
-
 <div class="centered-card-container">
   <mat-card>
     <mat-tab-group>
@@ -7,17 +6,8 @@
           <mat-icon class="example-tab-icon">deceased</mat-icon>
           In Our Memory
         </ng-template>
- <app-memory *ngFor="let item of items" [item]="item" (click)="doAction(item,$event)"></app-memory>
+        <app-memory *ngFor="let item of items" [item]="item" (click)="doAction(item,$event)"></app-memory>
       </mat-tab>
-    
-
-     
-
-
-
-
-
-
       <mat-tab>
         <ng-template mat-tab-label>
           <mat-icon class="example-tab-icon">deceased</mat-icon>
@@ -28,4 +18,3 @@
     </mat-tab-group>
   </mat-card>
 </div>
-

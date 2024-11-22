@@ -1,3 +1,4 @@
+<div *ngIf="!getRoute()">
 <mat-toolbar color="primary">
   <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
     <mat-icon>menu</mat-icon>
@@ -8,6 +9,22 @@
     <mat-icon>add</mat-icon>
   </button>
 </mat-toolbar>
+</div>
+
+
+
+
+<div class="contenedor" *ngIf="getRoute()">
+  <mat-card class="mat-card">
+    <mat-card-content class="dos">
+      “Sometimes you will never know the value of a moment until it becomes a memory” 
+    </mat-card-content>
+    <mat-card-actions class="uno">
+      <button mat-raised-button  [routerLink]="['/home']" class="mat-button-base">Start</button>
+    </mat-card-actions>
+  </mat-card>
+
+</div>
 <!--
 <mat-toolbar class="mat-toolbar-row">
   <button mat-raised-button class="example-icon" aria-label="Example icon-button with menu icon">
@@ -20,4 +37,6 @@
   </button>
 </mat-toolbar>
 <h1>{{title}}</h1>-->
+<div *ngIf="!getRoute()">
 <router-outlet></router-outlet>
+</div>
