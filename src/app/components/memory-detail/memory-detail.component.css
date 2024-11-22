@@ -2,22 +2,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px 100px 0px 100px;
+max-width: 800px;
+    margin: 10px 300px 0px 300px;
   }
   .my-image-margin {
     margin-right: 16px;
     margin-left: 24px;
   }
 
-  .example-card {
-    max-width: 900px;
-    min-width: 900px;
-    margin-top: 5px;
-    margin-left: 100px;
-    margin-right: 100px;
-    display: flex;
-    justify-content: center;
-  }
   ::ng-deep .mat-input-wrapper{
     width:400px !important;
   }
@@ -29,4 +21,7 @@
   
   .example-full-width {
     width: 100%;
+  }
+  .button{
+    background-color: rgb(219,0,17);
   }

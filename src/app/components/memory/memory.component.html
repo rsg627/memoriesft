@@ -1,12 +1,31 @@
 
+
 <mat-card class="example-card" appearance="outlined">
-    <mat-card-header>
+ 
+  <mat-card-header>
       <mat-card-title>{{item.title}}</mat-card-title>
       <mat-card-subtitle>{{item.subtitle}}</mat-card-subtitle>
     </mat-card-header>
-    <div class="my-image-margin">
-      <img mat-card-md-image  src="{{item.employee.img}}" alt="Photo of a Shiba Inu">
-    </div>
+    <mat-card-header class="header">
+      <div class="column my-image-margin"> <img mat-card-md-image  src="{{item.employee.img}}" alt="Photo of a Shiba Inu"></div>
+      <div class="column">
+         
+            <div *ngIf="item.employee.country" class="icon-text" >
+              <mat-icon>travel_explore</mat-icon>
+              <span>{{item.employee.country}}</span>
+           </div>
+           <div *ngIf="item.employee.gbgf" class="icon-text">
+            <mat-icon>apartment</mat-icon>
+            <span>{{item.employee.gbgf}}</span>
+         </div>
+         <div *ngIf="item.employee.role" class="icon-text">
+          <mat-icon>lan</mat-icon>
+          <span>{{item.employee.role}}</span>
+       </div>
+           
+      </div>
+    </mat-card-header>
+    
     <mat-card-content>
       <p>{{item.description}}
       </p>
@@ -14,11 +33,11 @@
     <mat-card-actions>
       <button mat-icon-button class="button-margin" aria-label="Example icon-button with heart icon" (click)="addLike(item)">
         <span >
-          <mat-icon>favorite</mat-icon>{{item.likes}}
+          <mat-icon class="my-custom-badge-accent" [matBadge]="item.likes" matBadgeColor="accent">favorite</mat-icon>
         </span>
       </button>
       <button mat-icon-button class="button-margin" [routerLink]="['/memory',item.id.timestamp]" aria-label="Example icon-button with heart icon">
-        <mat-icon>add</mat-icon>
+        <mat-icon>open_in_new</mat-icon>
       </button>
       <br>
     </mat-card-actions>

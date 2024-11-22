@@ -2,3 +2,29 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body {
+    background-image: url("assets/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.mat-icon{
+    -webkit-text-fill-color: rgb(219,0,17);
+}
+.mat-button{
+    -webkit-text-fill-color: white;
+    color: white;
+    background-color: rgb(219,0,17)!important;
+
+}
+.mat-toolbar{
+    background-color: black;
+}
+.mat-step {
+    margin-top: 20px; /* or a desired value */
+  }
+
+  .my-custom-badge-accent.mat-badge-accent .mat-badge-content {
+    background-color: #f1bf28;
+    color: white;
+}

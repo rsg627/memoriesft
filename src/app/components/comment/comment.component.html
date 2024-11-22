@@ -18,8 +18,7 @@
     <button mat-icon-button mat-flat-button class="example-icon favorite-icon" (click)="addLike(item)"
       aria-label="Example icon-button with heart icon">
       <span>
-        <mat-icon>favorite</mat-icon>
-        {{item.likes}}
+        <mat-icon class="my-custom-badge-accent" [matBadge]="item.likes" matBadgeColor="accent">favorite</mat-icon>
       </span>
     </button>
   </mat-card-actions>

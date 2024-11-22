@@ -9,10 +9,11 @@ import { matFormFieldAnimations, MatFormFieldModule } from '@angular/material/fo
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
 import { FormControl, FormGroup, FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatGridListModule } from '@angular/material/grid-list';
 
 @Component({
   selector: 'app-memory-detail',
-  imports: [MatCardModule, MatIconModule, CommonModule, RouterModule, CommentComponent, MatFormFieldModule, MatInputModule, MatButtonModule, FormsModule, ReactiveFormsModule],
+  imports: [MatCardModule, MatIconModule, CommonModule, RouterModule, CommentComponent,MatGridListModule, MatFormFieldModule, MatInputModule, MatButtonModule, FormsModule, ReactiveFormsModule],
   templateUrl: './memory-detail.component.html',
   styleUrl: './memory-detail.component.css'
 })

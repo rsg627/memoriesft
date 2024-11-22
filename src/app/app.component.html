@@ -1,16 +1,12 @@
-<mat-toolbar>
+<mat-toolbar color="primary">
   <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
     <mat-icon>menu</mat-icon>
   </button>
-  <span>HSBC Memorialize</span>
- <!-- <span class="example-spacer"></span>
-  <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
-    <mat-icon>favorite</mat-icon>
+  <a mat-button [routerLink]="['/home']">Memorialize</a>
+  <span class="example-spacer"></span>
+  <button [routerLink]="['/memory']" mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+    <mat-icon>add</mat-icon>
   </button>
-  <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
-    <mat-icon>share</mat-icon>
-  </button>
-  -->
 </mat-toolbar>
 <!--
 <mat-toolbar class="mat-toolbar-row">

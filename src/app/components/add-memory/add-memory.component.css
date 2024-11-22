@@ -1,0 +1,22 @@
+.mat-form-field{
+margin-left: 10px;
+margin-right: 10px;
+}
+.example-form-fields {
+    display: flex;
+    align-items: flex-start;
+  }
+.margin{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+.example-container mat-form-field + mat-form-field {
+    margin-left: 8px;
+  }
+  .center {
+    display: flex;
+    justify-content: center;
+  }

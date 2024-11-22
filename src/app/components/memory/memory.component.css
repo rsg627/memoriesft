@@ -21,6 +21,17 @@
   .button-margin{
     margin-bottom: 20px;
   }
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .column {
+    width: 25%; /* or any other width you want */
+  }
  
-
+.icon-text {
+  display: flex;
+  align-items: center;
+}
 
