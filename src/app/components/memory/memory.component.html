@@ -39,6 +39,9 @@
       <button mat-icon-button class="button-margin" [routerLink]="['/memory',item.id.timestamp]" aria-label="Example icon-button with heart icon">
         <mat-icon>open_in_new</mat-icon>
       </button>
+      <a mat-icon-button [href]="buildMailto(item.id.timestamp)" class="button-margin" aria-label="Example icon-button with heart icon">
+        <mat-icon>share</mat-icon>
+      </a>
       <br>
     </mat-card-actions>
 

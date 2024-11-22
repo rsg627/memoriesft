@@ -21,4 +21,7 @@ export class MemoryComponent {
     value.likes += 1;
     console.log(value.likes);
   }
+  buildMailto(id:any){
+    return `mailto:?subject=Memory Post&body=Hi, I want to share with you this important memorial post: http://localhost:4200/memory/${id}`;
+  }
 }
