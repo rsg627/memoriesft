@@ -9,7 +9,7 @@ export class MemoriesService {
 
   constructor(private http: HttpClient) { }
   getMemoryAll(type: any) {
-    return this.http.get<any[]>(`${environment.backendUrl}/memories`);
+    return this.http.get<any[]>(`${environment.backendUrl}/${type}`);
   }
   getMemoryById(id: any) {
     return this.http.get<any[]>(`${environment.backendUrl}/${id}`);

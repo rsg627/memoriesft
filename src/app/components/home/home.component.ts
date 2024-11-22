@@ -16,12 +16,18 @@ import { MatGridListModule } from '@angular/material/grid-list';
 })
 export class HomeComponent implements OnInit  {
   items: any[]=[];
+  items2: any[]=[];
   constructor(public memoriesService:MemoriesService){}
   ngOnInit(): void {
-    this.memoriesService.getMemoryAll("DEAD").subscribe(data => {
+    this.memoriesService.getMemoryAll("memories").subscribe(data => {
       console.log("abita2",data); 
       this.items = data;
       console.log("abita",this.items);
+    });
+    this.memoriesService.getMemoryAll("congrats").subscribe(data => {
+      console.log("abita2",data); 
+      this.items2 = data;
+      console.log("abita",this.items2);
     });
    
   }

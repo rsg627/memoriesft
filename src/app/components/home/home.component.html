@@ -3,17 +3,17 @@
     <mat-tab-group>
       <mat-tab>
         <ng-template mat-tab-label>
-          <mat-icon class="example-tab-icon">deceased</mat-icon>
+          <mat-icon class="example-tab-icon">local_florist</mat-icon>
           In Our Memory
         </ng-template>
         <app-memory *ngFor="let item of items" [item]="item" (click)="doAction(item,$event)"></app-memory>
       </mat-tab>
       <mat-tab>
         <ng-template mat-tab-label>
-          <mat-icon class="example-tab-icon">deceased</mat-icon>
-          People
+          <mat-icon class="example-tab-icon">diversity_3</mat-icon>
+           People
         </ng-template>
-        Content 2
+        <app-memory *ngFor="let item of items2" [item]="item" (click)="doAction(item,$event)"></app-memory>
       </mat-tab>
     </mat-tab-group>
   </mat-card>

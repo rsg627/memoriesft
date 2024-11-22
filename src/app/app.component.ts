@@ -21,4 +21,5 @@ export class AppComponent {
     console.log(this.router.url=='/');
     return this.router.url=='/';
   }
+  
 }
